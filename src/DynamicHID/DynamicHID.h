@@ -34,7 +34,7 @@
 
   #include "USB/PluggableUSB.h"
 #else
-  #include "PluggableUSB.h"
+  #include <api/PluggableUSB.h>
 #endif
 
 #if defined(USBCON)
