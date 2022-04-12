@@ -32,9 +32,9 @@
   #define USB_EP_SIZE 64
   #define TRANSFER_PGM 0x80
 
-  #include "USB/PluggableUSB.h"
+  #include "api/PluggableUSB.h"
 #else
-  #include <api/PluggableUSB.h>
+  #include "api/PluggableUSB.h"
 #endif
 
 #if defined(USBCON)
